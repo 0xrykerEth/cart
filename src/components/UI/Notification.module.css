@@ -1,0 +1,29 @@
+.notification {
+  width: 100%;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.notification h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.notification p {
+  margin: 0;
+}
+
+/* Status Colors */
+
+.pending {
+  background-color: #2563eb; /* Blue */
+}
+
+.success {
+  background-color: #22c55e; /* Light Green */
+}
+
+.failed {
+  background-color: #ef4444; /* Red */
+}

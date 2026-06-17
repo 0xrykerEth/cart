@@ -15,7 +15,13 @@ console.log(cartItem);
         {cartItem.map((item) => (
           <CartItem
             key={item.id}
-            item={{ title: item.name, quantity: item.quantity, total: item.totalPrice, price: item.price , id : item.id}}
+            item={{
+            id: item.id,
+            title: item.name,
+            quantity: item.quantity,
+            total: item.totalPrice,
+            price: item.price
+          }}
          />
         ))
         }

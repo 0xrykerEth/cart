@@ -15,7 +15,7 @@ const CartItem = (props) => {
   }
 
   const decrease = () => {
-    dispatch(cartAction.removeToCart({id,price}))
+    dispatch(cartAction.removeToCart(id))
   }
 
   return (
